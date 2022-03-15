@@ -51,7 +51,11 @@
   
 
   <ul id="parentList" class="list-group">
-    <li class="list-group-item">An item</li>
+    <li class="list-group-item d-flex justify-content-between">
+        <h3 class="flex-grow-1">An item </h3>
+        <button class="btn btn-warning mx-5" onClick="editText(this)">Edit</button>
+        <button class="btn btn-danger" onClick="removeText(this)">Remove</button>
+    </li>
     
   </ul>
         </div>
